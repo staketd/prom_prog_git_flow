@@ -6,7 +6,7 @@ public class Main {
         Integer a = 1 / 0; // severe bug;
         System.out.println("I'm a new java app!");
         Scanner scanner = new Scanner(System.in);
-        System.out.println("Write your name: ");
+        System.out.println("Enter your name: ");
         String name = scanner.next();
         System.out.printf("Hello, %s!%n", name);
         System.out.println("¯\\_(ツ)_/¯");
