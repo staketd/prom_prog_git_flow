@@ -9,5 +9,6 @@ public class Main {
         System.out.println("Write your name: ");
         String name = scanner.next();
         System.out.printf("Hello, %s!%n", name);
+        System.out.println("¯\\_(ツ)_/¯");
     }
 }
