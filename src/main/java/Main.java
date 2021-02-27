@@ -1,3 +1,5 @@
+import guess.number.GuessNumber;
+
 import java.util.Scanner;
 
 public class Main {
@@ -10,5 +12,9 @@ public class Main {
         String name = scanner.next();
         System.out.printf("Hello, %s!%n", name);
         System.out.println("¯\\_(ツ)_/¯");
+        System.out.println("Enter borders of guess number game:");
+        int left = scanner.nextInt();
+        int right = scanner.nextInt();
+        GuessNumber.guess(left, right);
     }
 }
