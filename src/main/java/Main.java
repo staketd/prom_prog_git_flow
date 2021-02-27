@@ -13,8 +13,8 @@ public class Main {
         System.out.printf("Hello, %s!%n", name);
         System.out.println("¯\\_(ツ)_/¯");
         System.out.println("Enter borders of guess number game:");
-        int left = scanner.nextInt();
-        int right = scanner.nextInt();
+        long left = scanner.nextLong();
+        long right = scanner.nextLong();
         GuessNumber.guess(left, right);
     }
 }
