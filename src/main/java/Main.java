@@ -1,4 +1,5 @@
 import guess.number.GuessNumber;
+import math.MyMathFormulas;
 
 import java.util.Scanner;
 
@@ -13,5 +14,6 @@ public class Main {
         long left = scanner.nextLong();
         long right = scanner.nextLong();
         GuessNumber.guess(left, right);
+        System.out.println(MyMathFormulas.Integrate(x -> x, 0, 1));
     }
 }
